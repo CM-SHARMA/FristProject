@@ -1,0 +1,80 @@
+    *
+    {
+      margin:0 auto;
+      padding:0;
+    }
+    .cm{
+      width: 1000px;
+      padding: 10px 15px;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      font-size: 16px;
+      outline: none;
+      transition: border-color 0.3s;
+      background:rgba(46, 175, 250, 0.621);
+      
+    }
+    .cms{
+      font-style: italic;
+      color: aquamarine;
+      margin: 0 auto;
+    }
+  
+    input {
+      color:black;
+      margin: 5px;
+      padding: 15px;
+      font-size: 20px;
+      font-weight: bold;
+      background-color:rgba(206, 246, 246, 0.822);
+      border: none;
+      border-radius: 10px;
+      box-shadow: 1px 3px 3px rgb(115, 132, 137);
+      
+    }
+    
+    button
+    {
+    padding: 10px;
+    font-size: 16px;
+    background-color: red;
+    border: none;
+    border-radius: 10px ;
+    box-shadow: 1px 3px 3px rgba(35, 31, 27, 0.696);
+     margin-top: 10px;
+     display: flex ;
+    }
+
+
+    /*------------------------------------*/
+
+
+   @media print {
+  body {
+    background: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+
+  
+    .cm, #generat{
+      display: none;
+    }
+    h1, h2 {
+      color: #005f73;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+     @page {
+    size: A4;
+    margin: 20mm;
+  }
+  }
+    
